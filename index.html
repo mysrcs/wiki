@@ -4,7 +4,6 @@
       <meta charset="UTF-8">
       <title>Site Title</title>
       <link rel="stylesheet" href="https://mysrcs.github.io/wiki/index.css">
-      <!--<script async="" src="https://mysrcs.github.io/wiki/index.js"></script>-->
       <meta name="format-detection" content="telephone=no">
       <meta name="theme-color" content="#eaecf0">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
@@ -15,6 +14,8 @@
             <a class="page-center__mask" href="#"></a>
             <header class="header-container header-chrome">
                <div class="header">
+
+                  
                   <nav id="top" class="navigation-drawer toggle-list view-border-box">
                      <input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="main-menu-button">
                      <label role="button" for="main-menu-input" id="main-menu-button" aria-hidden="true" data-event-name="ui.mainmenu" class="button button--size-large button--fake-button button--fake-button--enabled button--icon-only button--weight-quiet toggle-list__toggle">
@@ -23,7 +24,6 @@
                      </label>
                      <div style="font-family: sans-serif;" id="page-left" class="menu view-border-box">
                         <ul id="p-navigation" class="toggle-list__list">
-                           <!-- <span class="icon icon--home"></span> -->
                            <li style="background-color:#eaecf0;" class="toggle-list-item ">
                               <a class="toggle-list-item__anchor menu__item--home" href="#" data="interface">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 124 124" fill="none" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,0,0)">
@@ -39,25 +39,25 @@
                         <ul id="p-navigation" class="toggle-list__list">
                            <li class="toggle-list-item ">
                               <a class="toggle-list-item__anchor menu__item--random" href="#" data="interface">
-                                 <!--<span class="icon icon--edit"></span>-->
+                                 <span class="icon icon--edit"></span>
                                  <span class="toggle-list-item__label">Blog</span>
                               </a>
                            </li>
                            <li class="toggle-list-item list-item-jsonly">
                               <a class="toggle-list-item__anchor menu__item--nearby" href="#" data-event-name="menu.nearby" data="interface">
-                                 <!--<span class="icon icon--history"></span>-->
+                                 <span class="icon icon--history"></span>
                                  <span class="toggle-list-item__label">Changelog</span>
                               </a>
                            </li>
                            <li class="toggle-list-item list-item-jsonly">
                               <a class="toggle-list-item__anchor menu__item--settings" href="#" data-event-name="menu.settings" data="interface">
-                                 <!--<span class="icon icon--download"></span>-->
-                                 <span class="toggle-list-item__label">Download</span>
+                                 <span class="icon icon--watchlist"></span>
+                                 <span class="toggle-list-item__label">YouTube</span>
                               </a>
                            </li>
                            <li class="toggle-list-item ">
                               <a class="toggle-list-item__anchor menu__item--donate" href="#" data-event-name="menu.donate" data="interface">
-                                 <!--<span class="icon icon--heart"></span>-->
+                                 <span class="icon icon--heart"></span>
                                  <span class="toggle-list-item__label">Donate</span>
                               </a>
                            </li>
@@ -70,13 +70,13 @@
                            </li>
                            <li class="toggle-list-item ">
                               <a class="toggle-list-item__anchor menu__item--login" href="#" data-event-name="menu.login" data="interface">
-                                 <!--<span class="icon icon--star"></span>-->
+                                 <span class="icon icon--userAvatar"></span>
                                  <span class="toggle-list-item__label">CV</span>
                               </a>
                            </li>
                            <li class="toggle-list-item list-item-jsonly">
                               <a class="toggle-list-item__anchor menu__item--settings" href="#" data-event-name="menu.settings" data="interface">
-                                 <!--<span class="icon icon--settings"></span>-->
+                                 <span class="icon icon--userContributions"></span>
                                  <span class="toggle-list-item__label">Projects</span>
                               </a>
                            </li>
@@ -96,12 +96,16 @@
                      </div>
                      <label class="main-menu-mask" for="main-menu-input"></label>
                   </nav>
+
+
+                  
                   <div class="branding-box">
-                     <!-- In span in A add src="path_to_logo" -->
                      <a href="#">
-                     <span style"font-family: monospace; font-size:120%;">MySrcs</span>
+                     <span style"font-family: monospace; font-size:180%;">MySrcs</span>
                      </a>
                   </div>
+
+                  
                   <form action="/w/index.php" method="get" class="search-form">
                      <div class="search-box">
                         <input type="hidden" name="title" value="Special:Search"/>
@@ -115,18 +119,15 @@
                      <span>Search</span>
                      </button>
                   </form>
-                  <nav class="user-navigation" aria-label="User navigation">
-                  </nav>
                </div>
             </header>
+
+            
             <main id="content" class="body">
-               <div class="banner-container">
-                  <div id="siteNotice"></div>
-               </div>
                <div id="bodyContent" class="content">
                   <div id="content-text" class="body-content">
-                     <div class="content-ltr" lang="en" dir="ltr">
-                        <section class="mf-section-0" id="mf-section-0">
+                     <div class="content-ltr">       
+                        <section class="section-0" id="section-0">
                            <br>
                            <div id="topbanner" class="box">
                               <div id="welcomecount">
@@ -140,32 +141,7 @@
                            </div>
                         </section>
                      </div>
-                     <div class="printfooter" data-nosnippet="">
-                     Retrieved from "<a dir="ltr" href="#">Somewhere</a>"
-                     </div>
                   </div>
-               </div>
-
-
-               <br>
-               <div style="display: flex; justify-content: space-between;" class="post-content last-modified-bar__content">
-               <div class="post-content" id="page-secondary-actions">
-               <a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
-               <span role="button" class="icon icon-size-medium icon--modified-history" href="#"></span>
-               <span>Back</span>
-               </a>
-               </div>
-               <div class="post-content" id="page-secondary-actions">
-               <a role="button" href="#top" class="button button--size-large button--fake-button button--fake-button--enabled button"></span>
-               <span>Top ∆ </span>
-               </a>
-               </div>
-               <div class="post-content" id="page-secondary-actions">
-               <a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
-               <span>Next</span>
-               <span role="button" class="icon icon-size-medium icon--expand" href="#"></span>
-               </a>
-               </div>
                </div>
 
                <br>
@@ -176,71 +152,25 @@
                   		 <a class="icon icon-size-small icon--expand" href="#"></a>
                   	</div>
                   </p>
-                  <div class="post-content" id="page-secondary-actions">
-                  <a role="button" href="#p-lang" class="button button--size-large button--fake-button button--fake-button--enabled language-selector button">
-                  <span>Language</span>
-                  </a>
-                  </div> 
+
             </main>
             <footer class="footer footer" role="contentinfo">
             <div class="post-content footer-content">
-            <div id="p-lang">
-            <h4>Languages</h4>
-            <section>
-            <ul id="p-variants" class="languages"></ul>
-            <ul class="languages">
-            <li class="interlanguage-link interwiki-ar list-item">
-            <a href="#" title="English" lang="en" hreflang="en" data-title="" data-language-autonym="English" data-language-local-name="English" class="interlanguage-link-target"><span>English</span></a>
-            </li>
-            <li class="interlanguage-link interwiki-az list-item">
-            <a href="#" title="Hindi" lang="hi" hreflang="hi" data-title="" data-language-autonym="Hindi" data-language-local-name="Hindi" class="interlanguage-link-target"><span>Hindi</span></a>
-            </li>
-            <li class="interlanguage-link interwiki-bn list-item">
-            <a href="#" title="Sanskrit" lang="sa" hreflang="sa" data-title="" data-language-autonym="Sanskrit" data-language-local-name="Sanskrit" class="interlanguage-link-target"><span>Sanskrit</span></a>
-            </li>
-            </ul>
-            </section>
-            </div>
             <div class="footer-logo">
-            <!--<img src="https://mysrcs.github.io/wiki/logo.svg" alt="logo" width="20" height="18" style="width: 1.5em; height: -1.5em;"/>-->
             <span style="font-family: monospace;  font-size:140%;">MySrcs</span>
             </div>
-            <ul id="footer-info" class="footer-info hlist hlist-separated">
-            <li id="footer-info-lastmod"> This page was last edited on 23 May 2024, at 17:32<span class="anonymous-show">&#160;(UTC)</span>.</li>
-            <li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a> unless otherwise noted.</li>
-            </ul>
             <ul id="footer-places" class="footer-places hlist hlist-separated">
-            <li id="footer-places-privacy">
-            <a href="#">Privacy policy</a>
+            <li>
+            <a href="#">Terms</a>
             </li>
-            <li id="footer-places-about">
-            <a href="#">About</a>
-            </li>
-            <li id="footer-places-disclaimers">
-            <a href="#">Disclaimers</a>
-            </li>
-            <li id="footer-places-contact">
-            <a href="#">Contact</a>
-            </li>
-            <li id="footer-places-wm-codeofconduct">
-            <a href="#">Code of Conduct</a>
-            </li>
-            <li id="footer-places-cookiestatement">
-            <a href="#">Cookie statement</a>
-            </li>
-            <li id="footer-places-terms-use">
-            <a href="#">Terms of Use</a>
-            </li>
-            <li id="footer-places-desktop-toggle">
-            <a id="display-toggle" href="#" data-event-name="switch_to_desktop">Desktop</a>
-            </li>
+            <li>
+            <a href="#">Privacy</a>
+            </ul>
+            <ul id="footer-info" class="footer-info hlist hlist-separated">
+            <li id="footer-info-copyright">Copyright @2024 <a class="external" rel="nofollow" href="#">MySrcs</a>. All Rights Reserved, unless otherwise noted.</li>
             </ul>
             </div>
-            <pre class="last-modified-bar"> </pre>
             </footer>
          </div>
-      </div>
-      <div class="notification-area" data="interface">
-      </div>
    </body>
 </html>
