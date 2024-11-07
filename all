@@ -1,452 +1,423 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Site Title</title>
-<link rel="stylesheet" href="https://mysrcs.github.io/wiki/index.css">
-<!--<script async="" src="https://mysrcs.github.io/wiki/index.js"></script>-->
-<meta name="format-detection" content="telephone=no">
-<meta name="theme-color" content="#eaecf0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
-</head>
-<body>
-<div id="viewport">
-	<div id="page-center">
-		<a class="page-center__mask" href="#"></a>
-		<header class="header-container header-chrome">
-			<div class="header">
-				<nav id="top" class="navigation-drawer toggle-list view-border-box">
-					<input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="main-menu-button">
-					<label role="button" for="main-menu-input" id="main-menu-button" aria-hidden="true" data-event-name="ui.mainmenu" class="button button--size-large button--fake-button button--fake-button--enabled button--icon-only button--weight-quiet toggle-list__toggle">
-    <span class="icon icon--menu"></span>
-<span></span>
-</label>
-
-					<div style="font-family: sans-serif;" id="page-left" class="menu view-border-box">
-	<ul id="p-navigation" class="toggle-list__list"> <!-- <span class="icon icon--home"></span> -->
-			<li style="background-color:#eaecf0;" class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--home" href="#" data-mw="interface">
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 124 124" fill="none" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,0,0)">
-<rect width="124" height="124" rx="24" fill="#F97316"></rect>
-<rect x="20" y="38" width="80" height="80" rx="12" fill="#fff"></rect>
-<circle cx="63.2109" cy="20" r="12" fill="#fff"></circle>
-</svg><pre> </pre>
-					<span style="font-family: monospace; font-size:190%;" class="toggle-list-item__label">MySrcs</span>
-				</a>
-			</li>
-	</ul>
-	<ul id="p-navigation" class="toggle-list__list">
-			<li class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--random" href="https://www.wikipedia.org/wiki/Special:Random" data-mw="interface">
-					<!--<span class="icon icon--edit"></span>-->
-					<span class="toggle-list-item__label">Blog</span>
-				</a>
-			</li>
-			<li class="toggle-list-item list-item-jsonly">
-				<a class="toggle-list-item__anchor menu__item--nearby" href="https://www.wikipedia.org/wiki/Special:Nearby" data-event-name="menu.nearby" data-mw="interface">
-					<!--<span class="icon icon--history"></span>-->
-					<span class="toggle-list-item__label">Changelog</span>
-				</a>
-			</li>
-			<li class="toggle-list-item list-item-jsonly">
-				<a class="toggle-list-item__anchor menu__item--settings" href="https://www.wikipedia.org/w/index.php?title=Special:MobileOptions&amp;returnto=Main+Page" data-event-name="menu.settings" data-mw="interface">
-					<!--<span class="icon icon--download"></span>-->
-					<span class="toggle-list-item__label">Download</span>
-				</a>
-			</li>
-			<li class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--donate" href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en&amp;utm_key=minerva" data-event-name="menu.donate" data-mw="interface">
-					<!--<span class="icon icon--heart"></span>-->
-					<span class="toggle-list-item__label">Donate</span>
-				</a>
-			</li>
-	</ul>
-	<ul id="p-donation" class="toggle-list__list">
-			<li style="background-color:#eaecf0;" class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--login" href="#" data-event-name="menu.login" data-mw="interface">
-					<span class="toggle-list-item__label" style="color:#54595d;">Want to hire me?</span>
-				</a>
-			</li>
-			<li class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--login" href="https://www.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page" data-event-name="menu.login" data-mw="interface">
-					<!--<span class="icon icon--star"></span>-->
-					<span class="toggle-list-item__label">CV</span>
-				</a>
-			</li>
-			<li class="toggle-list-item list-item-jsonly">
-				<a class="toggle-list-item__anchor menu__item--settings" href="https://www.wikipedia.org/w/index.php?title=Special:MobileOptions&amp;returnto=Main+Page" data-event-name="menu.settings" data-mw="interface">
-					<!--<span class="icon icon--settings"></span>-->
-					<span class="toggle-list-item__label">Projects</span>
-				</a>
-			</li>
-	</ul>
-	<ul class="hlist">
-			<li class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--about" href="https://www.wikipedia.org/wiki/Wikipedia:About" data-mw="interface">
-					<span class="toggle-list-item__label">About Myscrs</span>
-				</a>
-			</li>
-			<li class="toggle-list-item ">
-				<a class="toggle-list-item__anchor menu__item--disclaimers" href="https://www.wikipedia.org/wiki/Wikipedia:General_disclaimer" data-mw="interface">
-					<span class="toggle-list-item__label">Disclaimers</span>
-				</a>
-			</li>
-	</ul>
-</div>
-
-					<label class="main-menu-mask" for="main-menu-input"></label>
-				</nav>
-				<div class="branding-box"> <!-- In span in A add src="https://www.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" -->
-					<a href="#">
-						<pre><a alt="Wikipedia" width="120" height="18" style="width: 7.5em; height: 1.125em;"/>MySrcs</pre>
-					</a>
-				</div>
-					<form action="/w/index.php" method="get" class="search-form">
-				<div class="search-box">
-					<input type="hidden" name="title" value="Special:Search"/>
-					<input class="search search-trigger" id="searchInput"
-						 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f">
-					<span class="search-box-icon-overlay"><span class="icon icon--search"></span>
-</span>
-				</div>
-				<button id="searchIcon" class="button button--size-large button--icon-only button--weight-quiet search-trigger">
-	    <span class="icon icon--search"></span>
-<span>Search</span>
-	</button>
-</form>
-		<nav class="user-navigation" aria-label="User navigation">
-					
-				</nav>
-			</div>
-		</header>
-		<main id="content" class="mw-body">
-			<div class="banner-container">
-			<div id="siteNotice"></div>
-			</div>
-			
-			<div id="bodyContent" class="content">
-				<div id="mw-content-text" class="mw-body-content">
-                <script>function mfTempOpenSection(id){var block=document.getElementById("mf-section-"+id);block.className+=" open-block";block.previousSibling.className+=" open-block";}</script>
-                <div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr">
-                <section class="mf-section-0" id="mf-section-0">
-                <style data-mw-deduplicate="TemplateStyles:r1235550650">.mw-parser-output .mp-box{border:1px solid #aaa;padding:0 0.5em 0.5em;margin-top:4px}.mw-parser-output .mp-h2,body.skin-timeless .mw-parser-output .mp-h2{border:1px solid #aaa;margin:0.5em 0;padding:0.2em 0.4em;font-size:120%;font-weight:bold;font-family:inherit}.mw-parser-output .mp-later{font-size:85%;font-weight:normal}.mw-parser-output #mp-welcomecount{text-align:center;margin:0.4em}.mw-parser-output #mp-welcome{font-size:162%;padding:0.1em}.mw-parser-output #mp-welcome h1,.mw-parser-output #mp-welcome .mw-heading1{font-size:inherit;font-family:inherit;display:inline;border:none}.mw-parser-output #mp-free{font-size:95%}.mw-parser-output #articlecount{font-size:85%}.mw-parser-output .mp-contains-float::after{content:"";display:block;clear:both}@media(max-width:875px){.mw-parser-output #mp-tfp table,.mw-parser-output #mp-tfp tr,.mw-parser-output #mp-tfp td,.mw-parser-output #mp-tfp tbody{display:block!important;width:100%!important;box-sizing:border-box}.mw-parser-output #mp-tfp tr:first-child td:first-child a.mw-file-description{text-align:center;display:table;margin:0 auto}}@media(min-width:875px){.mw-parser-output #mp-upper{display:flex}.mw-parser-output #mp-left{flex:1 1 55%;margin-right:2px}.mw-parser-output #mp-right{flex:1 1 45%;margin-left:2px}}@media screen{.mw-parser-output #mp-topbanner{background-color:#f9f9f9;border-color:#ddd}.mw-parser-output #mp-banner{background-color:#fffaf5;border-color:#f2e0ce}.mw-parser-output #mp-left{background-color:#f5fffa;border-color:#cef2e0}.mw-parser-output #mp-left .mp-h2{background-color:#cef2e0;border-color:#a3bfb1}.mw-parser-output #mp-right{background-color:#f5faff;border-color:#cedff2}.mw-parser-output #mp-right .mp-h2{background-color:#cedff2;border-color:#a3b0bf}.mw-parser-output #mp-middle{background-color:#fff5fa;border-color:#f2cedd}.mw-parser-output #mp-middle .mp-h2{background-color:#f2cedd;border-color:#bfa3af}.mw-parser-output #mp-lower{background-color:#faf5ff;border-color:#ddcef2}.mw-parser-output #mp-lower .mp-h2{background-color:#ddcef2;border-color:#afa3bf}.mw-parser-output #mp-bottom{border-color:#e2e2e2}.mw-parser-output #mp-bottom .mp-h2{background-color:#eee;border-color:#ddd}html.skin-theme-clientpref-night .mw-parser-output #mp-topbanner{background-color:#171a1d;border-color:#676767}html.skin-theme-clientpref-night .mw-parser-output #mp-banner{background-color:#431107;border-color:#663428}html.skin-theme-clientpref-night .mw-parser-output #mp-left{background-color:#0b1e1c;border-color:#104437}html.skin-theme-clientpref-night .mw-parser-output #mp-left .mp-h2{background-color:#104437;border-color:#2f4d41}html.skin-theme-clientpref-night .mw-parser-output #mp-right{background-color:#0d1a27;border-color:#082849}html.skin-theme-clientpref-night .mw-parser-output #mp-right .mp-h2{background-color:#082849;border-color:#a3b0bf}html.skin-theme-clientpref-night .mw-parser-output #mp-middle{background-color:#270e1a;border-color:#882c43}html.skin-theme-clientpref-night .mw-parser-output #mp-middle .mp-h2{background-color:#882c43;border-color:#926c80}html.skin-theme-clientpref-night .mw-parser-output #mp-lower{background-color:#130e20;border-color:#7545ab}html.skin-theme-clientpref-night .mw-parser-output #mp-lower .mp-h2{background-color:#7545ab;border-color:#afa3bf}html.skin-theme-clientpref-night .mw-parser-output #mp-bottom{border-color:#676767}html.skin-theme-clientpref-night .mw-parser-output #mp-bottom .mp-h2{background-color:#3d3d3d;border-color:#676767}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output #mp-topbanner{background-color:#171a1d;border-color:#676767}html.skin-theme-clientpref-os .mw-parser-output #mp-banner{background-color:#431107;border-color:#663428}html.skin-theme-clientpref-os .mw-parser-output #mp-left{background-color:#0b1e1c;border-color:#104437}html.skin-theme-clientpref-os .mw-parser-output #mp-left .mp-h2{background-color:#104437;border-color:#2f4d41}html.skin-theme-clientpref-os .mw-parser-output #mp-right{background-color:#0d1a27;border-color:#082849}html.skin-theme-clientpref-os .mw-parser-output #mp-right .mp-h2{background-color:#082849;border-color:#a3b0bf}html.skin-theme-clientpref-os .mw-parser-output #mp-middle{background-color:#270e1a;border-color:#882c43}html.skin-theme-clientpref-os .mw-parser-output #mp-middle .mp-h2{background-color:#882c43;border-color:#926c80}html.skin-theme-clientpref-os .mw-parser-output #mp-lower{background-color:#130e20;border-color:#7545ab}html.skin-theme-clientpref-os .mw-parser-output #mp-lower .mp-h2{background-color:#7545ab;border-color:#afa3bf}html.skin-theme-clientpref-os .mw-parser-output #mp-bottom{border-color:#676767}html.skin-theme-clientpref-os .mw-parser-output #mp-bottom .mp-h2{background-color:#3d3d3d;border-color:#676767}}</style>
-<br>
-<div id="mp-topbanner" class="mp-box">
-<div id="mp-welcomecount">
-
-<div id="mp-welcome">
-<div class="mw-heading mw-heading1">
-<h1 id="Welcome_to_Wikipedia">Welcome to <a href="#" title="Title">Myscrcs</a></h1></div>,</div>
-<div>the best website on internet, no cap.</div>
-</div>
-</div>
-
-<div id="mp-upper">
-<div id="mp-left" class="MainPageBG mp-box">
-
-<h2 class="mp-h2"><span></span>Featured Article</h2>
-<div id="mp-tfa" class="mp-contains-float">
-<div id="mp-tfa-img" style="float: left; margin: 0.5em 0.9em 0.4em 0em;">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 120px;">
-<span typeof="mw:File">
-<a href="https://mysrcs.github.io/wiki/img.webp" class="mw-file-description" title="Robert A. Heinlein">
-<img alt="image" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="120" height="164" class="mw-file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="243" data-file-height="333">
-</a>
-</span>
-<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Robert A. Heinlein</div>
-</div>
-</div>
-<p><i><b><a href="#" title="LOL">LOL</a></b></i> means Lot of Love and is a violent content of merchandise. hehehehehehehhe heheheh hehehe heheheh hehehe lol lol lol lol lol hehehe And blah blah blah blah blah blah blah blah blah blah blah blah blah hehehe And blah blah blah blah blah blah blah blah hehehe And blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah (<b><a href="#" title="more">Read more...</a></b>)
-</p>
-<div class="tfa-recent" style="text-align: center;">
-<style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style>
-<div class="hlist inline">
-<ul>
-<i>
-  <span style="text-decoration: dotted;">Tags: </span>
-  <li>
-    <a href="#" title="Ooo">Ooo whatthe</a>
-  </li>
-  <li>
-    <a href="#" title="Noice">Noice</a>
-  </li>
-  <li>
-    <a href="#" title="Hehehe">Hehehe</a>
-  </li>
-</i>
-</ul>
-</div></div>
-
-
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374">
-<div class="hlist tfa-footer noprint" style="text-align:center;">
-<ul>
-  <span style="text-decoration: dotted;">Share: </span>
-  <li>
-  <b>
-    <a href="#" title="#">Copy Link</a>
-  </b>
-  </li>
-  <li>
-  <b>
-    <a href="#" class="extiw" title="mail:daily-article-l">Download</a>
-  </b>
-  </li>
-  </ul>
-</div></div>
-<!-- to make all in line no flex box </div> -->
-</div>
-
-
-
-<div id="mp-right" class="MainPageBG mp-box">
-<h2 id="On_this_day" class="mp-h2">Today</h2>
-<div id="mp-otd" class="mp-contains-float">
-<p><b><a href="#" title="Today">November 7</a></b>
-</p>
-<div style="float:right;margin-left:0.5em;" id="mp-otd-img">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 140px;">
-<span typeof="mw:File">
-<a href="https://mysrcs.github.io/wiki/img.webp" class="mw-file-description" title="Tufted jay"><img alt="picture" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="140" height="140" class="mw-file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="600" data-file-height="600"></a></span>
-<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Image description</div></div>
-</div>
-<ul>
-<li><a href="#" title="Test">Test</a> – <b><a href="#" title="Look"><i>Look</i>, 1234</a></b>, blah blah <a href="#" title="Blah">Blah</a> was blah blah.</li>
-<li><a href="#" title="Test2">Test2</a> – <a href="#" title="What">What</a> <b><a href="#" title="Blah">Blah</a></b> blah blah in <a href="#" title="TOP">TOP</a>, blah blah blah blah blah blah blah blah.</li>
-</ul>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><div class="hlist" style="margin-top: 0.5em;">
-<ul>
-<li><b><a href="#" title="1">One</a></b>  (<abbr title="year">b.</abbr> 0001)</li>
-<li><b><a href="#" title="2">Two</a></b>  (<abbr title="year">b.</abbr> 0002)</li>
-<li><b><a href="#" title="3">Three</a></b>  (<abbr title="year">b.</abbr> 0003)</li>
-</ul>
-</div>
-
-<div style="margin-top:0.5em;">
-More dates: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374">
-<div class="hlist inline nowraplinks">
-<ul><li><a href="#" title="4">Four</a></li>
-<li><b><a href="#" title="5">Five</a></b></li>
-<li><a href="#" title="6">Six</a></li></ul>
-</div></div>
-
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374">
-<div class="hlist otd-footer noprint" style="text-align:center;">
-<ul>
-<li><b><a href="#" title="copy">Copy Link</a></b></li>
-<li><b><a href="#" class="extiw" title="Download">Download</a></b></li>
-</div></div>
-</div>
-</div>
-
-
-<div id="mp-lower" class="MainPageBG mp-box">
-<h2 id="Today's_featured_picture" class="mp-h2"><span id="featured_picture"></span>Featured picture</h2>
-<div id="mp-tfp">
-<table role="presentation" style="margin:0 3px 3px; width:100%; box-sizing:border-box; text-align:center; border-collapse:collapse; padding:0.9em">
-<tbody><tr>
-<td><span typeof="mw:File"><a href="https://mysrcs.github.io/wiki/img.webp" class="mw-file-description" title="Dalmatian pelican"><img alt="Dalmatian pelican" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="450" height="300" class="mw-file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="3982" data-file-height="2655"></a></span>
-</td></tr>
-<tr>
-<td style="padding:0 0.9em; text-align:left;">
-<p>The <b><a href="#" title="LOL">LOL</a></b> (<i>hehe</i>) is a bird in the family in forest.
-</p>
-<p style="text-align:center;"><small>Photograph credit: <a href="#" title="me">me</a></small></p>
-
-<div class="potd-recent" style="text-align:center;">
-<i>
-Tags: 
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374">
-<div class="hlist inline">
-<ul>
-<li><a href="#" title="LOL">LOL</a></li>
-<li><a href="#" title="Bird">Bird</a></li>
-<li><a href="#" title="Tips"><i>Tips</i></a></li></ul></i>
-</div></div>
-
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374">
-<div class="hlist potd-footer noprint" style="text-align:center;">
-<ul>
-Share: 
-<li><b><a href="#" title="archive">Copy Link</a></b></li>
-<li><b><a href="#" title="read">Download</a></b></li>
-</ul>
-</div>
-</td></tr></tbody></table></div>
-</div>
-
-
-
-<div id="mp-bottom" class="mp-box">
-<h2 id="Other_areas_of_Wikipedia" class="mp-h2">Other stuff</h2>
-<div id="mp-other-content">
-<ul>
-<li><b><a href="#" title="join">Join</a></b> – The central hub for everything, with resources, links, tasks, and announcements.</li>
-<li><b><a href="#" title="donate">Donate</a></b> – Donations motivate us to work harder and smarter, so donate to support us.</li>
-</div>
-
-
-
-<h2 id="Wikipedia's_sister_projects" class="mp-h2"><span id="Wikipedia.27s_sister_projects"></span>All Projects</h2>
-<div id="mp-sister-content"><style data-mw-deduplicate="TemplateStyles:r1239335380">.mw-parser-output #sister-projects-list{display:flex;flex-wrap:wrap}.mw-parser-output #sister-projects-list li{display:inline-block}.mw-parser-output #sister-projects-list li span{font-weight:bold}.mw-parser-output #sister-projects-list li>div{display:inline-block;vertical-align:middle;padding:6px 4px}.mw-parser-output #sister-projects-list li>div:first-child{text-align:center}@media screen{.mw-parser-output .sister-projects-wikt-icon-dark,html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-light{display:none}html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-dark{display:inline}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-dark{display:inline}html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-light{display:none}}@media(min-width:360px){.mw-parser-output #sister-projects-list li{width:33%;min-width:20em;white-space:nowrap;flex:1 0 25%}.mw-parser-output #sister-projects-list li>div:first-child{min-width:50px}}</style>
-<p>Blah blah blah blah blah blah blah blah blah <a href="#" title="link">link</a>, blah blah blah blah blah blah blah blah <a href="#" class="extiw" title="projects">projects</a>:
-</p>
-  <div><span typeof="mw:File"><a href="https://en.wikibooks.org/wiki/" title="books"><img alt="logo" src="https://www.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" decoding="async" width="124" height="124" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/53px-Wikibooks-logo.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/70px-Wikibooks-logo.svg.png 2x" data-file-width="300" data-file-height="300"></a></span></div>
-
-<style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist">
-<ul id="sister-projects-list">
-<li>
-  <div><span><a href="https://en.wikibooks.org/wiki/" class="extiw" title="b:">Books</a></span><br>Textbooks and manuals</div>
-</li>
-<li>
-  <div><span><a href="https://en.wikiquote.org/wiki/" class="extiw" title="q:">Quote</a></span><br>Collection of quotations</div>
-</li>
-</ul>
-</div></div>
-
-
-
-<h2 id="Wikipedia_languages" class="mp-h2">Useful links</h2>
-<div><style data-mw-deduplicate="TemplateStyles:r997272951">.mw-parser-output .wikipedia-languages-complete{font-weight:bold}.mw-parser-output .wikipedia-languages ul{margin-left:0}.mw-parser-output .wikipedia-languages ul a{white-space:nowrap}.mw-parser-output .wikipedia-languages>ul{list-style:none;text-align:center;clear:both}.mw-parser-output .wikipedia-languages-count-container{width:90%;display:flex;justify-content:center;padding-top:1em;margin:0 auto}.mw-parser-output .wikipedia-languages-prettybars{width:100%;height:1px;margin:0.5em 0;background-color:#c8ccd1;flex-shrink:1;align-self:center}.mw-parser-output .wikipedia-languages-count{padding:0 1em;white-space:nowrap}</style>
-<div class="wikipedia-languages nourlexpansion">
-<p>This page is written in <a href="#" title="dream">dream</a>. Many <a href="#" class="extiw" title="list">other dreams are available</a>; some of the largest are listed below.
-</p>
-<ul class="plainlinks">
-<li>
-  <div class="wikipedia-languages-count-container">
-    <div class="wikipedia-languages-prettybars"></div>
-    <div role="heading" aria-level="3" class="wikipedia-languages-count">I hate links</div>
-    <div class="wikipedia-languages-prettybars"></div>
-  </div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><div class="hlist wikipedia-languages-langs inline">
-<ul>
-<li><a class="external text" href="#"><span class="autonym" title="Link1" lang="ast">Link1</span></a></li>
-<li><a class="external text" href="#"><span class="autonym" title="Link2" lang="az">Link2</span></a></li>
-<li><a class="external text" href="#"><span class="autonym" title="Link3" lang="bn">Link3</span></a></li>
-</div>
-</li>
-</ul>
-</div></div>
-</div>  
-
-                                              
-</section></div>
-
-
-
-<!--esi <esi:include src="https://www.wikipedia.org/esitest-fa8a495983347898/content" /> -->
-<noscript>
-<img src="https://login.m.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1&amp;mobile=1" alt="" width="1" height="1" style="border: none; position: absolute;">
-</noscript>
-
-<div class="printfooter" data-nosnippet="">
-Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=1225315602">https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=1225315602</a>"
-</div>
-</div>
-</div>
-
-
-<div style="display: flex; justify-content: space-between;" class="post-content last-modified-bar__content">
-<div class="post-content" id="page-secondary-actions">
-<a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
-<span role="button" class="icon icon-size-medium icon--modified-history" href="#"></span>
-<span>Back</span>
-</a>
-</div>
-<div class="post-content" id="page-secondary-actions">
-<a role="button" href="#top" class="button button--size-large button--fake-button button--fake-button--enabled button"></span>
-<span>Top ∆ </span>
-</a>
-</div>
-<div class="post-content" id="page-secondary-actions">
-<a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
-<span>Next</span>
-<span role="button" class="icon icon-size-medium icon--expand" href="#"></span>
-</a>
-</div>
-</div>
-
-
-<!--
-  <p class="last-modified-bar" href="#">
-  	<div class="post-content last-modified-bar__content">
-      <a class="icon icon-size-medium icon--modified-history" href="#"></a> 
-  		<a class="last-modified-bar__text modified-enhancement" style="color:black; text-decoration: none; text-align: center;" href="#"><span>Go to Top</span></span>
-  		 <a class="icon icon-size-small icon--expand" href="#"></a>
-  	</div>
-  </p>
-<div class="post-content" id="page-secondary-actions">
-<a role="button" href="#p-lang" class="button button--size-large button--fake-button button--fake-button--enabled language-selector button">
-<span>Language</span>
-</a>
-</div> -->
-</main>
-<footer class="mw-footer footer" role="contentinfo">
-<div class="post-content footer-content">
-<div id="p-lang">
-<h4>Languages</h4>
-<section>
-  <ul id="p-variants" class="languages"></ul>
-  <ul class="languages">
-    <li class="interlanguage-link interwiki-ar mw-list-item">
-      <a href="#" title="English" lang="en" hreflang="en" data-title="" data-language-autonym="English" data-language-local-name="English" class="interlanguage-link-target"><span>English</span></a>
-    </li>
-    <li class="interlanguage-link interwiki-az mw-list-item">
-      <a href="#" title="Hindi" lang="hi" hreflang="hi" data-title="" data-language-autonym="Hindi" data-language-local-name="Hindi" class="interlanguage-link-target"><span>Hindi</span></a>
-    </li>
-    <li class="interlanguage-link interwiki-bn mw-list-item">
-      <a href="#" title="Sanskrit" lang="sa" hreflang="sa" data-title="" data-language-autonym="Sanskrit" data-language-local-name="Sanskrit" class="interlanguage-link-target"><span>Sanskrit</span></a>
-    </li>
-    </ul>
-</section>
-</div>
-
-
-<div class="footer-logo">
-<!--<img src="https://mysrcs.github.io/wiki/logo.svg" alt="logo" width="20" height="18" style="width: 1.5em; height: -1.5em;"/>-->
-<span style="font-family: monospace;  font-size:140%;">MySrcs</span>
-</div>
-<ul id="footer-info" class="footer-info hlist hlist-separated">
-  <li id="footer-info-lastmod"> This page was last edited on 23 May 2024, at 17:32<span class="anonymous-show">&#160;(UTC)</span>.</li>
-  <li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a> unless otherwise noted.</li>
-</ul>
-
-<ul id="footer-places" class="footer-places hlist hlist-separated">
-	<li id="footer-places-privacy">
-      <a href="#">Privacy policy</a>
-    </li>
-	<li id="footer-places-about">
-      <a href="#">About</a>
-    </li>
-	<li id="footer-places-disclaimers">
-      <a href="#">Disclaimers</a>
-    </li>
-	<li id="footer-places-contact">
-      <a href="#">Contact</a>
-    </li>
-	<li id="footer-places-wm-codeofconduct">
-      <a href="#">Code of Conduct</a>
-    </li>
-	<li id="footer-places-cookiestatement">
-      <a href="#">Cookie statement</a>
-    </li>
-	<li id="footer-places-terms-use">
-      <a href="#">Terms of Use</a>
-    </li>
-	<li id="footer-places-desktop-toggle">
-      <a id="display-toggle" href="#" data-event-name="switch_to_desktop">Desktop</a>
-    </li>
-</ul>
-
-</div>
-
-<pre class="last-modified-bar"> </pre>
-</footer>
-</div>
-</div>
-
-
-<div class="mw-notification-area" data-mw="interface">
-</div>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Site Title</title>
+      <link rel="stylesheet" href="https://mysrcs.github.io/wiki/index.css">
+      <!--<script async="" src="https://mysrcs.github.io/wiki/index.js"></script>-->
+      <meta name="format-detection" content="telephone=no">
+      <meta name="theme-color" content="#eaecf0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
+   </head>
+   <body>
+      <div id="viewport">
+         <div id="page-center">
+            <a class="page-center__mask" href="#"></a>
+            <header class="header-container header-chrome">
+               <div class="header">
+                  <nav id="top" class="navigation-drawer toggle-list view-border-box">
+                     <input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="main-menu-button">
+                     <label role="button" for="main-menu-input" id="main-menu-button" aria-hidden="true" data-event-name="ui.mainmenu" class="button button--size-large button--fake-button button--fake-button--enabled button--icon-only button--weight-quiet toggle-list__toggle">
+                     <span class="icon icon--menu"></span>
+                     <span></span>
+                     </label>
+                     <div style="font-family: sans-serif;" id="page-left" class="menu view-border-box">
+                        <ul id="p-navigation" class="toggle-list__list">
+                           <!-- <span class="icon icon--home"></span> -->
+                           <li style="background-color:#eaecf0;" class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--home" href="#" data="interface">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 124 124" fill="none" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,0,0)">
+                                    <rect width="124" height="124" rx="24" fill="#F97316"></rect>
+                                    <rect x="20" y="38" width="80" height="80" rx="12" fill="#fff"></rect>
+                                    <circle cx="63.2109" cy="20" r="12" fill="#fff"></circle>
+                                 </svg>
+                                 <pre> </pre>
+                                 <span style="font-family: monospace; font-size:190%;" class="toggle-list-item__label">MySrcs</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <ul id="p-navigation" class="toggle-list__list">
+                           <li class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--random" href="#" data="interface">
+                                 <!--<span class="icon icon--edit"></span>-->
+                                 <span class="toggle-list-item__label">Blog</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item list-item-jsonly">
+                              <a class="toggle-list-item__anchor menu__item--nearby" href="#" data-event-name="menu.nearby" data="interface">
+                                 <!--<span class="icon icon--history"></span>-->
+                                 <span class="toggle-list-item__label">Changelog</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item list-item-jsonly">
+                              <a class="toggle-list-item__anchor menu__item--settings" href="#" data-event-name="menu.settings" data="interface">
+                                 <!--<span class="icon icon--download"></span>-->
+                                 <span class="toggle-list-item__label">Download</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--donate" href="#" data-event-name="menu.donate" data="interface">
+                                 <!--<span class="icon icon--heart"></span>-->
+                                 <span class="toggle-list-item__label">Donate</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <ul id="p-donation" class="toggle-list__list">
+                           <li style="background-color:#eaecf0;" class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--login" href="#" data-event-name="menu.login" data="interface">
+                              <span class="toggle-list-item__label" style="color:#54595d;">Want to hire me?</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--login" href="#" data-event-name="menu.login" data="interface">
+                                 <!--<span class="icon icon--star"></span>-->
+                                 <span class="toggle-list-item__label">CV</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item list-item-jsonly">
+                              <a class="toggle-list-item__anchor menu__item--settings" href="#" data-event-name="menu.settings" data="interface">
+                                 <!--<span class="icon icon--settings"></span>-->
+                                 <span class="toggle-list-item__label">Projects</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <ul class="hlist">
+                           <li class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--about" href="#" data="interface">
+                              <span class="toggle-list-item__label">About Myscrs</span>
+                              </a>
+                           </li>
+                           <li class="toggle-list-item ">
+                              <a class="toggle-list-item__anchor menu__item--disclaimers" href="#" data="interface">
+                              <span class="toggle-list-item__label">Disclaimers</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <label class="main-menu-mask" for="main-menu-input"></label>
+                  </nav>
+                  <div class="branding-box">
+                     <!-- In span in A add src="path_to_logo" -->
+                     <a href="#">
+                        <pre>
+                     <a alt="logo" width="120" height="18" style="width: 7.5em; height: 1.125em;"/>MySrcs</pre>
+                     </a>
+                  </div>
+                  <form action="/w/index.php" method="get" class="search-form">
+                     <div class="search-box">
+                        <input type="hidden" name="title" value="Special:Search"/>
+                        <input class="search search-trigger" id="searchInput"
+                           type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f">
+                        <span class="search-box-icon-overlay"><span class="icon icon--search"></span>
+                        </span>
+                     </div>
+                     <button id="searchIcon" class="button button--size-large button--icon-only button--weight-quiet search-trigger">
+                     <span class="icon icon--search"></span>
+                     <span>Search</span>
+                     </button>
+                  </form>
+                  <nav class="user-navigation" aria-label="User navigation">
+                  </nav>
+               </div>
+            </header>
+            <main id="content" class="body">
+               <div class="banner-container">
+                  <div id="siteNotice"></div>
+               </div>
+               <div id="bodyContent" class="content">
+                  <div id="content-text" class="body-content">
+                     <div class="content-ltr" lang="en" dir="ltr">
+                        <section class="mf-section-0" id="mf-section-0">
+                           <br>
+                           <div id="topbanner" class="box">
+                              <div id="welcomecount">
+                                 <div id="welcome">
+                                    <div class="heading heading1">
+                                       <h1 id="Welcome_to_Wikipedia">Welcome to <a href="#" title="Title">Myscrcs</a></h1>
+                                    </div>
+                                    ,
+                                 </div>
+                                 <div>the best website on internet, no cap.</div>
+                              </div>
+                           </div>
+                           <div id="upper">
+                              <div id="left" class="MainPageBG box">
+                                 <h2 class="h2"><span></span>Featured Article</h2>
+                                 <div id="tfa" class="contains-float">
+                                    <div id="tfa-img" style="float: left; margin: 0.5em 0.9em 0.4em 0em;">
+                                       <div class="thumbinner thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 120px;">
+                                          <span typeof="mw:File">
+                                          <a href="https://mysrcs.github.io/wiki/img.webp" class="file-description" title="Robert A. Heinlein">
+                                          <img alt="image" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="120" height="164" class="file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="243" data-file-height="333">
+                                          </a>
+                                          </span>
+                                          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Robert A. Heinlein</div>
+                                       </div>
+                                    </div>
+                                    <p><i><b><a href="#" title="LOL">LOL</a></b></i> means Lot of Love and is a violent content of merchandise. hehehehehehehhe heheheh hehehe heheheh hehehe lol lol lol lol lol hehehe And blah blah blah blah blah blah blah blah blah blah blah blah blah hehehe And blah blah blah blah blah blah blah blah hehehe And blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah (<b><a href="#" title="more">Read more...</a></b>)</p>
+                                    <div class="tfa-recent" style="text-align: center;">
+                                       <div class="hlist inline">
+                                          <ul>
+                                             <i>
+                                                <span style="text-decoration: dotted;">Tags: </span>
+                                                <li>
+                                                   <a href="#" title="Ooo">Ooo whatthe</a>
+                                                </li>
+                                                <li>
+                                                   <a href="#" title="Noice">Noice</a>
+                                                </li>
+                                                <li>
+                                                   <a href="#" title="Hehehe">Hehehe</a>
+                                                </li>
+                                             </i>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                    <div class="hlist tfa-footer noprint" style="text-align:center;">
+                                       <ul>
+                                          <span style="text-decoration: dotted;">Share: </span>
+                                          <li>
+                                             <b>
+                                             <a href="#" title="#">Copy Link</a>
+                                             </b>
+                                          </li>
+                                          <li>
+                                             <b>
+                                             <a href="#" class="extiw" title="mail:daily-article-l">Download</a>
+                                             </b>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- to make all in line no flex box </div> -->
+                              </div>
+                              <div id="right" class="MainPageBG box">
+                                 <h2 id="On_this_day" class="h2">Today</h2>
+                                 <div id="otd" class="contains-float">
+                                    <p><b><a href="#" title="Today">November 7</a></b></p>
+                                    <div style="float:right;margin-left:0.5em;" id="otd-img">
+                                       <div class="thumbinner thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 140px;">
+                                          <span typeof="mw:File">
+                                          <a href="https://mysrcs.github.io/wiki/img.webp" class="file-description" title="Tufted jay"><img alt="picture" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="140" height="140" class="file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="600" data-file-height="600"></a></span>
+                                          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Image description</div>
+                                       </div>
+                                    </div>
+                                    <ul>
+                                       <li><a href="#" title="Test">Test</a> – <b><a href="#" title="Look"><i>Look</i>, 1234</a></b>, blah blah <a href="#" title="Blah">Blah</a> was blah blah.</li>
+                                       <li><a href="#" title="Test2">Test2</a> – <a href="#" title="What">What</a> <b><a href="#" title="Blah">Blah</a></b> blah blah in <a href="#" title="TOP">TOP</a>, blah blah blah blah blah blah blah blah.</li>
+                                    </ul>
+                                    <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                    <div class="hlist" style="margin-top: 0.5em;">
+                                       <ul>
+                                          <li><b><a href="#" title="1">One</a></b>  (<abbr title="year">b.</abbr> 0001)</li>
+                                          <li><b><a href="#" title="2">Two</a></b>  (<abbr title="year">b.</abbr> 0002)</li>
+                                          <li><b><a href="#" title="3">Three</a></b>  (<abbr title="year">b.</abbr> 0003)</li>
+                                       </ul>
+                                    </div>
+                                    <div style="margin-top:0.5em;">
+                                       More dates: 
+                                       <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                       <div class="hlist inline nowraplinks">
+                                          <ul>
+                                             <li><a href="#" title="4">Four</a></li>
+                                             <li><b><a href="#" title="5">Five</a></b></li>
+                                             <li><a href="#" title="6">Six</a></li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                    <div class="hlist otd-footer noprint" style="text-align:center;">
+                                       <ul>
+                                       <li><b><a href="#" title="copy">Copy Link</a></b></li>
+                                       <li><b><a href="#" class="extiw" title="Download">Download</a></b></li>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="lower" class="MainPageBG box">
+                              <h2 id="Today's_featured_picture" class="h2"><span id="featured_picture"></span>Featured picture</h2>
+                              <div id="tfp">
+                                 <table role="presentation" style="margin:0 3px 3px; width:100%; box-sizing:border-box; text-align:center; border-collapse:collapse; padding:0.9em">
+                                    <tbody>
+                                       <tr>
+                                          <td><span typeof="mw:File"><a href="https://mysrcs.github.io/wiki/img.webp" class="file-description" title="Dalmatian pelican"><img alt="Dalmatian pelican" src="https://mysrcs.github.io/wiki/img.webp" decoding="async" width="450" height="300" class="file-element" srcset="https://mysrcs.github.io/wiki/img.webp 1.5x, https://mysrcs.github.io/wiki/img.webp 2x" data-file-width="3982" data-file-height="2655"></a></span></td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding:0 0.9em; text-align:left;">
+                                             <p>The <b><a href="#" title="LOL">LOL</a></b> (<i>hehe</i>) is a bird in the family in forest.</p>
+                                             <p style="text-align:center;"><small>Photograph credit: <a href="#" title="me">me</a></small></p>
+                                             <div class="potd-recent" style="text-align:center;">
+                                                <i>
+                                                   Tags: 
+                                                   <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                                   <div class="hlist inline">
+                                                      <ul>
+                                                         <li><a href="#" title="LOL">LOL</a></li>
+                                                         <li><a href="#" title="Bird">Bird</a></li>
+                                                         <li><a href="#" title="Tips"><i>Tips</i></a></li>
+                                                      </ul>
+                                                </i>
+                                                </div>
+                                             </div>
+                                             <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                             <div class="hlist potd-footer noprint" style="text-align:center;">
+                                                <ul>
+                                                   Share: 
+                                                   <li><b><a href="#" title="archive">Copy Link</a></b></li>
+                                                   <li><b><a href="#" title="read">Download</a></b></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <div id="bottom" class="box">
+                              <h2 id="Other_areas_of_Wikipedia" class="h2">Other stuff</h2>
+                              <div id="other-content">
+                                 <ul>
+                                 <li><b><a href="#" title="join">Join</a></b> – The central hub for everything, with resources, links, tasks, and announcements.</li>
+                                 <li><b><a href="#" title="donate">Donate</a></b> – Donations motivate us to work harder and smarter, so donate to support us.</li>
+                              </div>
+                              <h2 id="Wikipedia's_sister_projects" class="h2"><span id="Wikipedia.27s_sister_projects"></span>All Projects</h2>
+                              <div id="sister-content">
+                                <p>Blah blah blah blah blah blah blah blah blah <a href="#" title="link">link</a>, blah blah blah blah blah blah blah blah <a href="#" class="extiw" title="projects">projects</a>:</p>
+                                 <div><span typeof="mw:File"><a href="https://en.wikibooks.org/wiki/" title="books"><img alt="logo" src="https://mysrcs.github.io/wiki/logo.svg" decoding="async" width="124" height="124" class="file-element" srcset="https://mysrcs.github.io/wiki/logo.svg 1.5x, https://mysrcs.github.io/wiki/logo.svg 2x" data-file-width="300" data-file-height="300"></a></span></div>
+                                <div class="plainlist">
+                                    <ul id="sister-projects-list">
+                                       <li>
+                                          <div><span><a href="https://en.wikibooks.org/wiki/" class="extiw" title="b:">Books</a></span><br>Textbooks and manuals</div>
+                                       </li>
+                                       <li>
+                                          <div><span><a href="https://en.wikiquote.org/wiki/" class="extiw" title="q:">Quote</a></span><br>Collection of quotations</div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <h2 id="Wikipedia_languages" class="h2">Useful links</h2>
+                              <div>
+                                 <div class="wikipedia-languages nourlexpansion">
+                                    <p>This page is written in <a href="#" title="dream">dream</a>. Many <a href="#" class="extiw" title="list">other dreams are available</a>; some of the largest are listed below.</p>
+                                    <ul class="plainlinks">
+                                    <li>
+                                       <div class="wikipedia-languages-count-container">
+                                          <div class="wikipedia-languages-prettybars"></div>
+                                          <div role="heading" aria-level="3" class="wikipedia-languages-count">I hate links</div>
+                                          <div class="wikipedia-languages-prettybars"></div>
+                                       </div>
+                                       <link rel="deduplicated-inline-style" href="data:TemplateStyles:r1129693374">
+                                       <div class="hlist wikipedia-languages-langs inline">
+                                          <ul>
+                                             <li><a class="external text" href="#"><span class="autonym" title="Link1" lang="ast">Link1</span></a></li>
+                                             <li><a class="external text" href="#"><span class="autonym" title="Link2" lang="az">Link2</span></a></li>
+                                             <li><a class="external text" href="#"><span class="autonym" title="Link3" lang="bn">Link3</span></a></li>
+                                       </div>
+                                       </li>
+                                       </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+                     <div class="printfooter" data-nosnippet="">
+                     Retrieved from "<a dir="ltr" href="#">Somewhere</a>"
+                     </div>
+                  </div>
+               </div>
+               <div style="display: flex; justify-content: space-between;" class="post-content last-modified-bar__content">
+               <div class="post-content" id="page-secondary-actions">
+               <a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
+               <span role="button" class="icon icon-size-medium icon--modified-history" href="#"></span>
+               <span>Back</span>
+               </a>
+               </div>
+               <div class="post-content" id="page-secondary-actions">
+               <a role="button" href="#top" class="button button--size-large button--fake-button button--fake-button--enabled button"></span>
+               <span>Top ∆ </span>
+               </a>
+               </div>
+               <div class="post-content" id="page-secondary-actions">
+               <a role="button" href="#" class="button button--size-large button--fake-button button--fake-button--enabled button">
+               <span>Next</span>
+               <span role="button" class="icon icon-size-medium icon--expand" href="#"></span>
+               </a>
+               </div>
+               </div>
+               <!--
+                  <p class="last-modified-bar" href="#">
+                  	<div class="post-content last-modified-bar__content">
+                      <a class="icon icon-size-medium icon--modified-history" href="#"></a> 
+                  		<a class="last-modified-bar__text modified-enhancement" style="color:black; text-decoration: none; text-align: center;" href="#"><span>Go to Top</span></span>
+                  		 <a class="icon icon-size-small icon--expand" href="#"></a>
+                  	</div>
+                  </p>
+                  <div class="post-content" id="page-secondary-actions">
+                  <a role="button" href="#p-lang" class="button button--size-large button--fake-button button--fake-button--enabled language-selector button">
+                  <span>Language</span>
+                  </a>
+                  </div> -->
+            </main>
+            <footer class="footer footer" role="contentinfo">
+            <div class="post-content footer-content">
+            <div id="p-lang">
+            <h4>Languages</h4>
+            <section>
+            <ul id="p-variants" class="languages"></ul>
+            <ul class="languages">
+            <li class="interlanguage-link interwiki-ar list-item">
+            <a href="#" title="English" lang="en" hreflang="en" data-title="" data-language-autonym="English" data-language-local-name="English" class="interlanguage-link-target"><span>English</span></a>
+            </li>
+            <li class="interlanguage-link interwiki-az list-item">
+            <a href="#" title="Hindi" lang="hi" hreflang="hi" data-title="" data-language-autonym="Hindi" data-language-local-name="Hindi" class="interlanguage-link-target"><span>Hindi</span></a>
+            </li>
+            <li class="interlanguage-link interwiki-bn list-item">
+            <a href="#" title="Sanskrit" lang="sa" hreflang="sa" data-title="" data-language-autonym="Sanskrit" data-language-local-name="Sanskrit" class="interlanguage-link-target"><span>Sanskrit</span></a>
+            </li>
+            </ul>
+            </section>
+            </div>
+            <div class="footer-logo">
+            <!--<img src="https://mysrcs.github.io/wiki/logo.svg" alt="logo" width="20" height="18" style="width: 1.5em; height: -1.5em;"/>-->
+            <span style="font-family: monospace;  font-size:140%;">MySrcs</span>
+            </div>
+            <ul id="footer-info" class="footer-info hlist hlist-separated">
+            <li id="footer-info-lastmod"> This page was last edited on 23 May 2024, at 17:32<span class="anonymous-show">&#160;(UTC)</span>.</li>
+            <li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a> unless otherwise noted.</li>
+            </ul>
+            <ul id="footer-places" class="footer-places hlist hlist-separated">
+            <li id="footer-places-privacy">
+            <a href="#">Privacy policy</a>
+            </li>
+            <li id="footer-places-about">
+            <a href="#">About</a>
+            </li>
+            <li id="footer-places-disclaimers">
+            <a href="#">Disclaimers</a>
+            </li>
+            <li id="footer-places-contact">
+            <a href="#">Contact</a>
+            </li>
+            <li id="footer-places-wm-codeofconduct">
+            <a href="#">Code of Conduct</a>
+            </li>
+            <li id="footer-places-cookiestatement">
+            <a href="#">Cookie statement</a>
+            </li>
+            <li id="footer-places-terms-use">
+            <a href="#">Terms of Use</a>
+            </li>
+            <li id="footer-places-desktop-toggle">
+            <a id="display-toggle" href="#" data-event-name="switch_to_desktop">Desktop</a>
+            </li>
+            </ul>
+            </div>
+            <pre class="last-modified-bar"> </pre>
+            </footer>
+         </div>
+      </div>
+      <div class="notification-area" data="interface">
+      </div>
+   </body>
 </html>
